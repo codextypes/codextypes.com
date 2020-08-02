@@ -2,6 +2,7 @@
 title: "Avoiding Null Pointer Exceptions"
 date: 2019-03-10
 draft: false
+summary: "Those sneaky, sneaky null pointers!"
 ---
 There is a form of driving called “defensive driving”. Defensive drivers anticipate accidents 
 and bad drivers. This lowers the chances of getting into accidents. It has saved me from 

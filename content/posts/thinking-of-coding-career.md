@@ -2,6 +2,7 @@
 title: "Thinking of getting into a coding career?"
 date: 2020-08-01T22:06:47-05:00
 draft: false
+summary: "Got 30 mins to watch a video?"
 ---
 
 The first 30 or so minutes of this video could answer some questions you may have.

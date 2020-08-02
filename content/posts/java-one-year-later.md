@@ -2,6 +2,7 @@
 title: "Java One Year Later"
 date: 2020-03-18
 draft: false
+summary: "A retrospective is overdue!"
 ---
 It’s been a little over a year since I started developing in Java full-time again. A retrospective
 is overdue!

@@ -16,3 +16,6 @@ theme="hyde"
       {Name = "Twitter", URL = "https://twitter.com/codextypes"},
       {Name = "Twitch", URL = "https://twitch.tv/codextypes"}
   ]
+
+[markup.goldmark.renderer]
+  unsafe= true

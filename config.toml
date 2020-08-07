@@ -4,7 +4,7 @@ title = "Josh Austin"
 theme="hyde"
 
 [params]
-  description = "Follower of Jesus, Java by day, Go by night, opinions are my own."
+  description = "Follower of Jesus. Java is my bread and butter, but I like trying out other programming languages. Closet fan of vanilla PHP. Opinions are my own."
   themeColor = "theme-base-0d"
 
 [Menus]

@@ -4,17 +4,14 @@ title = "Josh Austin"
 theme="hyde"
 
 [params]
-  description = "Follower of Jesus. Java is my bread and butter, but I like trying out other programming languages. Closet fan of vanilla PHP. Opinions are my own."
+  description = "Java Software Engineer from Chicago. Follower of Jesus. Beliefs and opinions are my own."
   themeColor = "theme-base-0d"
 
 [Menus]
   main = [
-      {Name = "About", URL = "/about/"},
-      {Name = "Contact", URL = "https://forms.gle/F4MDn58r9hHu6FT19"},
       {Name = "Github", URL = "https://github.com/codextypes"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/codextypes"},
       {Name = "Twitter", URL = "https://twitter.com/codextypes"},
-      {Name = "Twitch", URL = "https://twitch.tv/codextypes"}
   ]
 
 [markup.goldmark.renderer]

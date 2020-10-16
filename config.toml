@@ -1,20 +1,68 @@
 baseURL = "https://codextypes.com/"
 languageCode = "en-us"
-title = "Josh Austin"
-theme="hyde"
+title = "codextypes"
+theme="hugo-coder"
 
 [params]
-  description = "Follower of Jesus. Java is my bread and butter, but I like trying out other programming languages. Closet fan of vanilla PHP. Opinions are my own."
-  themeColor = "theme-base-0d"
+    author = "Josh Austin"
+    description = ""
+    keywords = "blog,developer,personal"
+    info = "Follower of Jesus. #MovedByJava to make the grocery experience better every day at Peapod Digital Labs. Photography and golang hobbyist. Opinions are my own."
+    gravatar = "josh.has.ideas@gmail.com"
+
+    dateformat = "January 2, 2006"
+
+    hideFooter = false
+    hideCredits = true
+    hideCopyright = false
+    since = 2020
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/codextypes/codextypes.com/tree/"
+    colorscheme = "dark"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/codextypes/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
+    url = "https://twitter.com/codextypes/"
+[[params.social]]
+    name = "Twitch"
+    icon = "fa fa-twitch"
+    weight = 4
+    url = "https://twitch.tv/codextypes"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/codextypes/"
+[[params.social]]
+    name = "Wordpress"
+    icon = "fa fa-wordpress"
+    weight = 4
+    url = "https://joshuaaust.in/"
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-rss"
+    weight = 6
+    url = "https://codextypes.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
 [Menus]
   main = [
-      {Name = "About", URL = "/about/"},
-      {Name = "Contact", URL = "https://forms.gle/F4MDn58r9hHu6FT19"},
-      {Name = "Github", URL = "https://github.com/codextypes"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/codextypes"},
-      {Name = "Twitter", URL = "https://twitter.com/codextypes"},
-      {Name = "Twitch", URL = "https://twitch.tv/codextypes"}
+      {Name = "Posts", URL = "/posts"}
   ]
 
 [markup.goldmark.renderer]
